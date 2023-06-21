@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: sean-api
-          image: us-docker.pkg.dev/april-2023-online-cit-262/sean-api/api-tests
+          image: gcr.io/my-devops-team/sean-api:latest
           ports:
             - containerPort: 3000
           resources:
