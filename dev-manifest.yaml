@@ -15,7 +15,7 @@ spec:
       containers:
         - name: sean-api
         # This image is going to be the path to the image you create in a future step
-          image: us-docker.pkg.dev/my-devops-team/sean-api:latest
+          image: us-docker.pkg.dev/my-devops-team/sean-api/api-tests:latest
           ports:
             - containerPort: 3000
           resources:
